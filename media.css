@@ -1,0 +1,146 @@
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  nav {
+    display: block;
+  }
+  nav img {
+    width: 100px;
+    padding: 20px;
+    float: left;
+  }
+
+  nav .menu {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    margin-bottom: 40px;
+  }
+  nav ul {
+    position: absolute;
+    display: block;
+    top: 60px;
+    left: 0;
+    margin-top: 20px;
+    margin-right: 0px;
+    background: rgb(20, 119, 149);
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    transition: max-height 0.7s;
+  }
+  nav ul li {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0 20px;
+    border-radius: 0;
+  }
+  nav ul li a {
+    border-radius: none;
+    width: 100%;
+    display: block;
+  }
+  nav ul li a:hover {
+    color: #fff;
+  }
+  nav ul li .active {
+    text-decoration: none;
+    color: rgb(23, 39, 90);
+  }
+
+  /*  section */
+  section {
+    margin-top: 15%;
+  }
+  .text-center {
+    top: -160px;
+  }
+  .text-center h3 {
+    font-size: 15px;
+  }
+  .text-center h1 {
+    font-size: 20px;
+  }
+  .applynow {
+    margin-bottom: 20px;
+  }
+
+  /* ---------  */
+  .welcome {
+    width: 100%;
+    margin: auto;
+  }
+
+  .welcome-sec {
+    display: block;
+  }
+  .welcome-sec .grid {
+    width: 100%;
+  }
+  /* --------- course ----------- */
+
+  .course .container {
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+
+  .course .container .card {
+    width: 90%;
+    margin: 30px 20px;
+  }
+  /* -------why choose us ----- */
+  .choose-card-1,
+  .choose-card-2 {
+    display: block;
+  }
+
+  .choose-card-1 .card {
+    width: 90%;
+    margin: 10px;
+  }
+  .choose-card-2 .card {
+    width: 90%;
+    margin: 0px;
+  }
+
+  /* ----- teacher ------- */
+  .teacher-sec {
+    display: block;
+  }
+
+  .teacher-sec .teacher {
+    display: block;
+    bottom: 0;
+    margin-top: 100%;
+  }
+
+  .teacher-sec .teacher .card {
+    width: 100%;
+    margin: 50px 0;
+  }
+  .teacher-sec .teacher .card img {
+    width: 100%;
+  }
+  /* --------------contact ----------- */
+  .contact {
+    width: 100%;
+    margin: auto;
+  }
+
+  .form .input-group-all {
+    display: block;
+  }
+  .form .input-group-all .input-group {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .text-area {
+    width: 94%;
+    margin-top: 30px;
+  }
+}
